@@ -78,7 +78,6 @@ body {
   color: #404bbf;
 }
 .address-link {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -110,7 +109,6 @@ body {
 
 /* ===== Hero Section ===== */
 .hero-title {
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -157,7 +155,6 @@ body {
   margin-bottom: 8px;
 }
 .ul-item-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -174,7 +171,6 @@ body {
 
 /* ===== Our Team Section ===== */
 .our-team-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -192,7 +188,6 @@ body {
   margin-bottom: 8px;
 }
 .our-ul-item-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -218,7 +213,6 @@ body {
 
 /* ===== Our Portfolio ===== */
 .our-portfolio-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -236,7 +230,6 @@ body {
   margin-bottom: 8px;
 }
 .portfolio-ul-item-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -275,7 +268,6 @@ body {
   color: #f4f4fd;
 }
 .text-footer {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
