@@ -53,7 +53,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.16;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -112,7 +112,7 @@ body {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -128,12 +128,10 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  color: #fff;
 }
 .hero-button:hover {
   background: #404bbf;
-}
-.hero-button-text {
-  color: #fff;
 }
 .hero-section {
   background-color: #2e2f42;
@@ -178,7 +176,7 @@ body {
 .our-team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
@@ -222,7 +220,7 @@ body {
 .our-portfolio-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
@@ -268,7 +266,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.16;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
