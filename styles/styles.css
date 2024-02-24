@@ -181,9 +181,23 @@ body {
 .about-us-ul {
   display: flex;
   gap: 24px;
+  flex-wrap: wrap;
 }
 .about-us-ul-flex-item {
   width: calc((100% - 72px) / 4);
+}
+.about-icon {
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  background-color: #f4f4fd;
+  margin-bottom: 8px;
+}
+.about-list-icon {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
 }
 /* ===== /About Us Section ===== */
 
