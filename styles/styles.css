@@ -61,7 +61,6 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin-right: 76px;
 }
 .header-logo-span {
   color: #2e2f42;
@@ -75,6 +74,7 @@ body {
   display: block;
   padding-top: 24px;
   padding-bottom: 24px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-link:hover,
 .nav-link:focus,
@@ -87,6 +87,7 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
   font-style: normal;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-link:hover {
   color: #404bbf;
@@ -94,6 +95,8 @@ body {
 .nav-page {
   display: flex;
   align-items: center;
+  width: 452px;
+  justify-content: space-between;
 }
 .nav-menu {
   display: flex;
@@ -146,9 +149,10 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-button:hover {
-  background: #404bbf;
+  background-color: #404bbf;
 }
 .hero-section {
   background-color: #2e2f42;
@@ -271,6 +275,7 @@ body {
   background-color: #4d5ae5;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-icon {
   fill: none;
@@ -349,21 +354,34 @@ body {
   background-color: #2e2f42;
   width: 1440px;
   height: 312px;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  padding-right: 1020px;
-  padding-left: 156px;
+  display: flex;
 }
-.icon-footer {
-  display: block;
-}
-
 .icon-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
+  margin-bottom: 16px;
+  margin-left: 16px;
+}
+
+.content-footer {
+  max-width: 264px;
+  max-height: 112px;
+  margin: 100px 120px 100px 156px;
+}
+.footer-icon {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.footer-icon-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 16px;
+  margin-bottom: 32px;
+  margin-left: 16px;
+  margin-right: 16px;
 }
 
 /* ===== /Footer ===== */
