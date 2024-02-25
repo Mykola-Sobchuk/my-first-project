@@ -51,6 +51,7 @@ body {
 /* ===== Header =====  */
 .page-header {
   border-bottom: 1px solid #e7e9fc;
+  height: 72px;
 }
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -106,6 +107,16 @@ body {
 .header-container {
   display: flex;
   justify-content: space-between;
+}
+.studio:active::after {
+  content: "";
+  display: block;
+  border-radius: 2px;
+  width: 48px;
+  height: 4px;
+  background-color: #404bbf;
+  margin-top: 20px;
+  position: absolute;
 }
 /* ===== /Header ===== */
 
