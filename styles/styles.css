@@ -224,6 +224,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  margin-bottom: 8px;
 }
 .our-team-ul-img {
   display: flex;
@@ -235,11 +236,37 @@ body {
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
   width: calc((100% - 72px) / 4);
+  width: 264px;
+  height: 428px;
 }
 .ul-container-team {
   padding-top: 32px;
   padding-bottom: 64px;
   text-align: center;
+}
+.team-icon-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  margin-bottom: 32px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.icon-a {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  align-items: center;
+  justify-content: center;
+}
+.team-icon {
+  fill: none;
+  stroke: white;
+}
+.icon-a:hover {
+  background-color: #31d0aa;
 }
 /* ===== /Our Team Section ===== */
 
@@ -316,4 +343,16 @@ body {
   padding-right: 1020px;
   padding-left: 156px;
 }
+.icon-footer {
+  display: block;
+}
+
+.icon-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+
 /* ===== /Footer ===== */
