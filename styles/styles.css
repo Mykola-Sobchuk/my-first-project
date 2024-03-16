@@ -327,9 +327,11 @@ body {
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.over-div {
   position: relative;
   overflow: hidden;
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .our-portfolio-ul-item-flex:hover {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
@@ -361,8 +363,6 @@ body {
 }
 .our-portfolio-ul-item-flex:hover .banking-overlay {
   transform: translateY(0%);
-  width: 360px;
-  height: 300px;
 }
 /* ===== /Our Portfolio ===== */
 
@@ -375,6 +375,8 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .logo-footer-span {
   color: #f4f4fd;
@@ -385,13 +387,14 @@ body {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
-  margin-top: 16px;
 }
 .container-footer {
   background-color: #2e2f42;
   width: 1440px;
   height: 312px;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .icon-title {
   font-weight: 500;
@@ -400,31 +403,22 @@ body {
   letter-spacing: 0.02em;
   color: #fff;
   margin-bottom: 16px;
-  margin-left: 16px;
 }
 
 .content-footer {
-  max-width: 264px;
-  max-height: 112px;
-  margin: 100px 120px 100px 156px;
+  margin-left: 156px;
+  margin-top: 30px;
 }
 .footer-icon {
-  margin-top: 100px;
-  margin-bottom: 100px;
 }
 .footer-icon-list {
   display: flex;
   flex-wrap: wrap;
   column-gap: 16px;
-  margin-bottom: 32px;
-  margin-left: 16px;
-  margin-right: 16px;
 }
 
 .fotter-sub {
-  margin-top: 100px;
-  margin-bottom: 188px;
-  margin-left: 80px;
+  margin-right: 159px;
 }
 .footer-sub-title {
   display: block;
@@ -433,10 +427,10 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
+  margin-bottom: 16px;
 }
 .footer-sub-input {
   display: inline-flex;
-  margin-top: 16px;
   border: 1px solid #fff;
   border-radius: 4px;
   width: 264px;
