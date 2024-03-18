@@ -94,12 +94,12 @@ body {
 .nav-page {
   display: flex;
   align-items: center;
-  width: 452px;
   justify-content: space-between;
+  width: 496px;
 }
 .nav-menu {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 .address-menu {
   display: flex;
