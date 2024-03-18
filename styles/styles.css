@@ -552,8 +552,17 @@ body {
     row-gap: 64px;
   }
 }
-effe
 /* ========= /Our Team Section Styles =========== */
+/* ========= Our Portfolio Section Styles ========== */
+
+@media only screen and (max-width: 767px) {
+}
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 1200px) {
+}
+
+/* ========= /Our Portfolio Section Styles ========== */
 
 @media only screen and (max-width: 767px) {
 }
