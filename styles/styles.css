@@ -240,6 +240,7 @@ body {
     margin-bottom: 48px;
   }
   .nav-link {
+    padding: 0px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -825,6 +826,9 @@ body {
   .footer-sub-btn {
     margin-bottom: 96px;
   }
+  .footer-sub-input {
+    width: 100%;
+  }
 }
 @media only screen and (min-width: 768px) {
   .container-footer {
@@ -833,7 +837,7 @@ body {
     column-gap: 24px;
     justify-content: baseline;
     align-items: baseline;
-    padding-left: 108px;
+    padding: 96px 108px;
   }
   .text-footer {
     margin-left: 0;
@@ -844,7 +848,6 @@ body {
 @media only screen and (min-width: 1158px) {
   .text-footer {
     margin: 0;
-    margin-right: 120px;
     max-width: 263px;
   }
   .footer-icon {
@@ -857,10 +860,10 @@ body {
     margin-bottom: 0px;
   }
   .container-footer {
-    justify-content: center;
+    flex-wrap: nowrap;
+    justify-content: space-around;
     align-items: baseline;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 100px 15px;
   }
 
   .footer-sub {
@@ -933,10 +936,15 @@ body {
 }
 
 @media only screen and (max-width: 767px) {
+  .modal {
+    overflow: scroll;
+  }
 }
 @media only screen and (min-width: 768px) {
-}
-@media only screen and (min-width: 1158px) {
+  .modal {
+    width: 408px;
+    height: 584px;
+  }
 }
 
 /* /Modal Styles */
@@ -1067,12 +1075,6 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: 24px;
-}
-@media only screen and (max-width: 767px) {
-}
-@media only screen and (min-width: 768px) {
-}
-@media only screen and (min-width: 1158px) {
 }
 
 /* /rewiew form styles */
